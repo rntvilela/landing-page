@@ -1,10 +1,65 @@
 body {
     background-color: #1f2337;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0px;
+    margin: 0px;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px
+}
+
+.hero {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 10px;
+    width: 125px;
+    height: 35px;
+    padding: 0px;
+}
+
+.information {
+    background-color: #f9faf8;
+}
+
 
 
 .footer {
     text-align: center;
     color: #f9faf8;
-    size: 24px;
+    font-size: 24px;
+
 }
+
